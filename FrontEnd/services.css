@@ -7,7 +7,6 @@
 	overflow: hidden;
 	font-family: 'Poppins' , sans-serif;
 }
-
 .container-fluid
 {
 	width: 100%;
@@ -15,7 +14,6 @@
 	background: linear-gradient(to left,rgba(0, 0, 0, 0.5)50% ,rgba(0, 0, 0, 0.5)50%) ,url(Fit.jpg) center/cover;
 	background-repeat: no-repeat;
 }
-
 .container
 {
 	width: 1200px;
@@ -30,10 +28,6 @@
 	color: #fff;
 	cursor: pointer;
 }
-#d10{
-	
-	
-}
 /**/
 nav ul
 {
@@ -47,8 +41,9 @@ nav ul li
 	margin-right: 30px;
 	cursor: pointer;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 20px;
 	color: #fff;
+	font-family: monospace;
 }
 nav ul li:hover
 {
@@ -61,46 +56,30 @@ nav ul li a
 	font-weight: bold;
 	transition: 0.4s ease-in-out;
 }
+ul li
+{
+	margin-right: 30px;
+	cursor: pointer;
+	font-weight: 400;
+	font-size: 20px;
+	color: #fff;
+	font-family: monospace;
+}
 ul li a:hover
 {
 	color: #058283;
 }
 
 /**/
-.content #btn1
-{
-	width: 120px;
-	height: 45px;
-	border-radius: 8px;
-	border: none;
-	background: #058283;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: bold;
-	letter-spacing: 1px;
-	
-}
-.content #btn1 a
-{
-	text-decoration: none;
-	color: #000;
-	transition: 0.3s ease;
-}
-
-/**/
 .content
 {
 	width: 1200px;
-	height: 75vh;
+	height: 100vh;
 	margin: auto;
-	overflow: auto;
-
 }
-
 h3
 {
-	color: #fff;
+	color: whitesmoke;
 	padding-top: 100px;
 	font-weight: 400;
 }
@@ -112,7 +91,8 @@ h1
 	line-height: 75px;
 }
 h2
-{	
+{
+	
 	color: #fff;
 	margin-top: 20px;
 	line-height: 75px;
